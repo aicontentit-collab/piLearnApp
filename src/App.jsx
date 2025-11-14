@@ -193,12 +193,12 @@ export default function App() {
           </MobileTopbar>
 
           <Routes>
-            <Route path="/pilearn" element={<InstalearnApp />} />
-            <Route path="/pilearn/teacher" element={ <TeacherProfile />} />
-            <Route path="/pilearn/library" element={<Feed />} />
-            <Route path="/pilearn/notifications" element={<ComingSoon />} />
-            <Route path="/pilearn/more" element={<ComingSoon />} />
-            <Route path="/pilearn/profile" element={<Profile />} />
+            <Route path="/" element={<InstalearnApp />} />
+            <Route path="/teacher" element={ <TeacherProfile />} />
+            <Route path="/library" element={<Feed />} />
+            <Route path="/notifications" element={<ComingSoon />} />
+            <Route path="/more" element={<ComingSoon />} />
+            <Route path="/profile" element={<Profile />} />
           </Routes>
         </MainContent>
 

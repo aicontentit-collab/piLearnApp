@@ -106,7 +106,7 @@ export default function Topbar() {
         <Container fluid className="px-3">
           <Bar>
             <Left>
-              <Logo to="/pilearn/" aria-label="Go to home">
+              <Logo to="/" aria-label="Go to home">
                 <div>
                   <LogoMark aria-hidden="true" />
                 </div>

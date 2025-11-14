@@ -6,10 +6,10 @@ import { Link, useLocation } from "react-router-dom";
 export default function BottomNav() {
   const { pathname } = useLocation();
   const navItems = [
-    ["/pilearn/", <FiHome />],
-    ["/pilearn/teacher", <FaChalkboardTeacher />],
-    ["/pilearn/library", <FiBookOpen />],
-    ["/pilearn/profile", <FiUser />],
+    ["/", <FiHome />],
+    ["/teacher", <FaChalkboardTeacher />],
+    ["/library", <FiBookOpen />],
+    ["/profile", <FiUser />],
   ];
 
   return (

@@ -504,7 +504,7 @@ export default function TeacherProfile() {
     console.log("Updated piLearnData:", updatedData);
 
     // Continue navigation
-    navigate("/pilearn/library");
+    navigate("/library");
   };
   const handleJoinClick = () => {
     if (!isJoined) setShowPricing(true);
@@ -578,7 +578,7 @@ export default function TeacherProfile() {
         <div style={{ textAlign: "center" }}>
           <p style={{ marginBottom: 12 }}>We couldn't find that teacher.</p>
           <button
-            onClick={() => navigate("/pilearn/")}
+            onClick={() => navigate("/")}
             style={{
               padding: "0.6rem 1rem",
               borderRadius: 8,

@@ -144,29 +144,29 @@ export default function InstagramSidebar() {
   const { pathname } = useLocation();
 
   const links = [
-    { to: "/pilearn/", icon: <FiHome />, label: "Home" },
+    { to: "/", icon: <FiHome />, label: "Home" },
     {
-      to: "/pilearn/teacher",
+      to: "/teacher",
       icon: <FaChalkboardTeacher />,
       label: "Teacher",
     },
     {
-      to: "/pilearn/library",
+      to: "/library",
       icon: <FiBookOpen />,
       label: "Library",
       hasNotification: true,
     },
     {
-      to: "/pilearn/notifications",
+      to: "/notifications",
       icon: <FiHeart />,
       label: "Notifications",
     },
-    { to: "/pilearn/profile", icon: <FiUser />, label: "Profile" },
+    { to: "/profile", icon: <FiUser />, label: "Profile" },
   ];
 
   return (
     <SidebarContainer>
-      <Logo to="/pilearn/">
+      <Logo to="/">
         <div>
           <LogoMark aria-hidden="true" />
         </div>
@@ -193,8 +193,8 @@ export default function InstagramSidebar() {
 
       <BottomSection>
         <NavLink
-          to="/pilearn/more"
-          $active={pathname === "/pilearn/more"}
+          to="/more"
+          $active={pathname === "/more"}
         >
           <IconWrapper>
             <FiMenu />

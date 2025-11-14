@@ -225,7 +225,7 @@ export default function Home() {
       // secure: true, // enable on HTTPS
     });
 
-    navigate("/pilearn/teacher", {
+    navigate("/teacher", {
       state: {
         grade: selectedGrade,
         subject: selectedSubject,
