@@ -4,12 +4,13 @@ import styled from "styled-components";
 import Feed from "./pages/Feed.jsx";
 import InstalearnApp from "./pages/Home.jsx";
 import Profile from "./pages/Profile.jsx";
-import ComingSoon from "./pages/ComingSoon.jsx";
+import AlakhSirNotes from "./pages/AlakhSirNotes.jsx";
 import Topbar from "./components/layout/Topbar.jsx";
 import SidebarLeft from "./components/layout/SidebarLeft.jsx";
 import SidebarRight from "./components/layout/SidebarRight.jsx";
 import BottomNav from "./components/layout/BottomNav.jsx";
 import TeacherProfile from "./pages/TeacherProfile.jsx";
+import ComingSoon from "./pages/ComingSoon.jsx";
 
 
 
@@ -196,7 +197,7 @@ export default function App() {
             <Route path="/" element={<InstalearnApp />} />
             <Route path="/teacher" element={ <TeacherProfile />} />
             <Route path="/library" element={<Feed />} />
-            <Route path="/notifications" element={<ComingSoon />} />
+            <Route path="/alakhsirnotes" element={<AlakhSirNotes />} />
             <Route path="/more" element={<ComingSoon />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>

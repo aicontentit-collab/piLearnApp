@@ -157,7 +157,7 @@ export default function InstagramSidebar() {
       hasNotification: true,
     },
     {
-      to: "/notifications",
+      to: "/alakhsirnotes",
       icon: <FiHeart />,
       label: "Notifications",
     },

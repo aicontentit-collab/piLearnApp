@@ -1,11 +1,43 @@
-import {sstSlides} from "../assets/SstNotes/sstDataExport.js";
-import {Book1C1, Book1C2} from "../assets/ScienceNotes/scienceDataExport.js";
+import { sstSlides } from "../assets/SstNotes/sstDataExport.js";
+import { Book1C1, Book1C2 } from "../assets/ScienceNotes/scienceDataExport.js";
 
-
-
-
-
-
+export const Alakhsirnotes = [
+  {
+    id: "T005-1-1",
+    type: "carousel",
+    icon: "BsHeartPulse",
+    title: "Life Processes",
+    subtitle: "Core life functions",
+    detailedDescription:
+      "This section covers the fundamental life processes such as nutrition, respiration, transportation, excretion, and reproduction in living organisms.",
+    carouselMetaData: [
+      { id: "T005-1-1-1", type: "img", src: Book1C1.imgS1 },
+      { id: "T005-1-1-2", type: "img", src: Book1C1.imgS2 },
+      { id: "T005-1-1-3", type: "img", src: Book1C1.imgS3 },
+      { id: "T005-1-1-4", type: "img", src: Book1C1.imgS4 },
+      { id: "T005-1-1-5", type: "img", src: Book1C1.imgS5 },
+      { id: "T005-1-1-6", type: "img", src: Book1C1.imgS6 },
+    ],
+  },
+  {
+    id: "T005-1-2",
+    type: "carousel",
+    icon: "BsSun",
+    title: "Nutrition in Living Organisms",
+    subtitle: "How plants and animals obtain and use food",
+    detailedDescription:
+      "This carousel explains how different organisms obtain nutrition to sustain life. You will learn how autotrophs make their own food using sunlight, and how heterotrophs—like humans and animals—depend on other organisms for energy. Fun comparisons and visual examples make the concepts easy and relatable.",
+    carouselMetaData: [
+      { id: "T005-1-2-1", type: "gif", src: Book1C2.plantOrder },
+      { id: "T005-1-2-2", type: "gif", src: Book1C2.makingFood },
+      { id: "T005-1-2-3", type: "gif", src: Book1C2.exampleTime },
+      { id: "T005-1-2-4", type: "gif", src: Book1C2.challenge },
+      { id: "T005-1-2-5", type: "gif", src: Book1C2.burgur },
+      { id: "T005-1-2-6", type: "gif", src: Book1C2.cooking },
+      { id: "T005-1-2-7", type: "gif", src: Book1C2.exampleTime1 },
+    ],
+  },
+];
 
 /**
  * DATA SHAPE
@@ -126,4 +158,3 @@ export const TeachersNotes = [
     ],
   },
 ];
-
